@@ -10,7 +10,8 @@
 * See the tutorial/views.py. This file was used to create some data in mongo. I try to generate a project with pyramid_mongodb but the incompatibility of the pyramid, mongodb versions, so less and old informations not help me.
 * This is the dict that contains in databases *mydb* and collection *mydb*:
 
-``
+```
+
 {
    "id": 1, 
    "Name": "Beatles", 
@@ -19,7 +20,8 @@
    "Name": "Vardoger", 
    "Theme": "Metal"
 }
-``
+
+```
 
 ## Python and Pyramid
 
