@@ -27,7 +27,7 @@
 ## Python and Pyramid
 
 * Create a virtualenv with Python 3.6, enter in virtualenv folder and git clone this repository.
-* Typing *cd sitethumbs* and in this folder run *pip install -e .* to download all of python requirements for this project.
+* Typing *cd sitethumbs* and in this folder run *pip install -e .* to download all of python requirements for this project. Some packages cause troubles, just like a pyramid_debugtoolbar. If shows a python message error try *pip install pyramid_debugtoolbar or <other_name>* depends.
 * Finnaly, execute *pserve development --reload* to run pyramid server.
 * http://localhost:6543\ it's the default address to acess the firs page. It's contais the Thumbs up and downs count.
 * http://localhost:6543\howdy it's the second. Contains the list of themes and try counts.
