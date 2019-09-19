@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Score!</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="${request.static_url('tutorial:static/scroll.css') }"/>
+    </head>
+    <body>
+        <header>
+            <br>
+            <h1>Now show the score for my best videos!</h1>
+            <br>
+        </header>
+
+        <div class="vertical-menu"> 
+            <a href="#" class="active"> Videos </a>
+            <a href="#"> ${name} <p>${theme}</p><button id="votos" type="submit">0</button><p>Pontos</p></a>
+            <a href="#"> ${name2} <p>${theme2}</p><button id="votos2" type="submit">0</button><p>Pontos</p></a>
+            <script src="${request.static_url('tutorial:static/mais.js') }"></script>
+            <a href="#"> name3 <p>Rock</p></a>
+            <a href="#"> name4 <p>Classic</p></a>
+            <a href="#"> name5 <p>Classic</p></a>
+            <a href="#"> name6 <p>Rock</p></a>
+            <a href="#"> name7 <p>Jazz</p></a>
+            <a href="#"> name8 <p>Jazz</p></a>
+            <a href="#"> name9 <p>Rock</p></a>
+            <a href="#"> name10 <p>Blues</p></a>
+            <a href="#"> name11 <p>Blues</p></a>
+            <a href="#"> name12 <p>Blues</p></a>
+            <a id="add"></a>
+        </div>
+    </body>
+</html>

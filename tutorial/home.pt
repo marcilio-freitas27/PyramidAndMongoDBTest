@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Thumbs!</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="${request.static_url('tutorial:static/scroll.css') }"/>
+    </head>
+    <body>
+        <header>
+            <br>
+            <h1>My site for You Tube thumbs channel</h1>
+            <br>
+        </header>
+
+        <div class="vertical-menu"> 
+            <a href="#" class="active"> Videos <button onclick="insert()" type="submit">Create</button></a>
+            <a href="#"> ${name} <p>${theme}</p><button type="submit"><span class="glyphicon glyphicon-thumbs-up"></span><p id="valor">0</p> </button><button type="submit"><span class="glyphicon glyphicon-thumbs-down"></span><p id="valor2">0</p></button></a>
+            <a href="#"> ${name2} <p>${theme2}</p><button type="submit"><span class="glyphicon glyphicon-thumbs-up"></span><p id="valor3">0</p> </button><button type="submit"><span class="glyphicon glyphicon-thumbs-down"></span><p id="valor4">0</p></button></a>
+            <script src="${request.static_url('tutorial:static/mais.js') }"></script>
+            <a href="#"> name3 <p>Rock</p><button type="submit"><span class="glyphicon glyphicon-thumbs-up"></span> 0 </button><button id="votos" type="submit"><span class="glyphicon glyphicon-thumbs-down"></span>0</button></a>
+            <a href="#"> name4 <p>Classic</p><button type="submit"><span class="glyphicon glyphicon-thumbs-up"></span> 0 </button><button id="votos2" type="submit"><span class="glyphicon glyphicon-thumbs-down"></span>0</button></a>
+            <a href="#"> name5 <p>Classic</p><button type="submit"><span class="glyphicon glyphicon-thumbs-up"></span> 0 </button><button type="submit"><span class="glyphicon glyphicon-thumbs-down"></span>0</button></a>
+            <a href="#"> name6 <p>Rock</p><button type="submit"><span class="glyphicon glyphicon-thumbs-up"></span> 0 </button><button type="submit"><span class="glyphicon glyphicon-thumbs-down"></span>0</button></a>
+            <a href="#"> name7 <p>Jazz</p><button type="submit"><span class="glyphicon glyphicon-thumbs-up"></span> 0 </button><button type="submit"><span class="glyphicon glyphicon-thumbs-down"></span>0</button></a>
+            <a href="#"> name8 <p>Jazz</p><button type="submit"><span class="glyphicon glyphicon-thumbs-up"></span> 0 </button><button type="submit"><span class="glyphicon glyphicon-thumbs-down"></span>0</button></a>
+            <a href="#"> name9 <p>Rock</p><button type="submit"><span class="glyphicon glyphicon-thumbs-up"></span> 0 </button><button type="submit"><span class="glyphicon glyphicon-thumbs-down"></span>0</button></a>
+            <a href="#"> name10 <p>Blues</p><button type="submit"><span class="glyphicon glyphicon-thumbs-up"></span> 0 </button><button type="submit"><span class="glyphicon glyphicon-thumbs-down"></span>0</button></a>
+            <a href="#"> name11 <p>Blues</p><button type="submit"><span class="glyphicon glyphicon-thumbs-up"></span> 0 </button><button type="submit"><span class="glyphicon glyphicon-thumbs-down"></span>0</button></a>
+            <a href="#"> name12 <p>Blues</p><button type="submit"><span class="glyphicon glyphicon-thumbs-up"></span> 0 </button><button type="submit"><span class="glyphicon glyphicon-thumbs-down"></span>0</button></a>
+            <a id="add"></a>
+        </div>
+    </body>
+</html>
