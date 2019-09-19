@@ -6,7 +6,7 @@
 
 ## MongoDB
 
-* It's necessary download a MongoDB 3.9.0, but you can chance the values in tutorial/views.py in lines that contains ``return {"name" : collection.find_one(["Name])`` and others because this line getting information of the db and collection in mongo. 
+* It's necessary download a MongoDB 3.9.0, but you can chance the values in tutorial/views.py in lines that contains ``return {"name" : collection.find_one(["Name])`` , home.pt, hello.pt and others  because this files and line getting information of the db and collection in mongo. 
 * See the tutorial/views.py. This file was used to create some data in mongo. I try to generate a project with pyramid_mongodb but the incompatibility of the pyramid, mongodb versions, so less and old informations not help me.
 * This is the dict that contains in databases *mydb* and collection *mydb*:
 
